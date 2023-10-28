@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000591] (-) JobUnselected: {'identifier': 'async_web_server_cpp'}
+[0.000771] (-) JobUnselected: {'identifier': 'camera_pkg'}
+[0.000894] (-) JobUnselected: {'identifier': 'ctrl_pkg'}
+[0.000985] (-) JobUnselected: {'identifier': 'deepracer_interfaces_pkg'}
+[0.001066] (-) JobUnselected: {'identifier': 'deepracer_navigation_pkg'}
+[0.001311] (-) JobUnselected: {'identifier': 'deepracer_systems_pkg'}
+[0.004205] (-) JobUnselected: {'identifier': 'device_info_pkg'}
+[0.004377] (-) JobUnselected: {'identifier': 'ftl_launcher'}
+[0.004918] (-) JobUnselected: {'identifier': 'ftl_navigation_pkg'}
+[0.005137] (-) JobUnselected: {'identifier': 'i2c_pkg'}
+[0.005397] (-) JobUnselected: {'identifier': 'inference_pkg'}
+[0.006060] (-) JobUnselected: {'identifier': 'model_optimizer_pkg'}
+[0.006230] (-) JobUnselected: {'identifier': 'object_detection_pkg'}
+[0.006317] (-) JobUnselected: {'identifier': 'sensor_fusion_pkg'}
+[0.006402] (-) JobUnselected: {'identifier': 'servo_pkg'}
+[0.006487] (-) JobUnselected: {'identifier': 'status_led_pkg'}
+[0.006572] (-) JobUnselected: {'identifier': 'usb_monitor_pkg'}
+[0.006729] (-) JobUnselected: {'identifier': 'webserver_pkg'}
+[0.006866] (midterm_drive) JobQueued: {'identifier': 'midterm_drive', 'dependencies': OrderedDict([('deepracer_interfaces_pkg', '/home/deepracer/midterm_ws/install/deepracer_interfaces_pkg')])}
+[0.007047] (midterm_drive) JobStarted: {'identifier': 'midterm_drive'}
+[0.095767] (-) TimerEvent: {}
+[0.196648] (-) TimerEvent: {}
+[0.297327] (-) TimerEvent: {}
+[0.398001] (-) TimerEvent: {}
+[0.498787] (-) TimerEvent: {}
+[0.604958] (-) TimerEvent: {}
+[0.706021] (-) TimerEvent: {}
+[0.806691] (-) TimerEvent: {}
+[0.907337] (-) TimerEvent: {}
+[1.008013] (-) TimerEvent: {}
+[1.098375] (midterm_drive) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/midterm_drive', 'build', '--build-base', '/home/deepracer/midterm_ws/build/midterm_drive/build', 'install', '--prefix', '/home/deepracer/midterm_ws/install/midterm_drive', '--record', '/home/deepracer/midterm_ws/build/midterm_drive/install.log', '--single-version-externally-managed'], 'cwd': '/home/deepracer/midterm_ws/src/midterm_drive', 'env': {'SUDO_GID': '1000', 'LIBRARY_PATH': '/opt/intel/openvino_2021/data_processing/dl_streamer/lib:/opt/intel/openvino_2021/data_processing/gstreamer/lib:', 'INTEL_CVSDK_DIR': '/opt/intel/openvino_2021', 'MAIL': '/var/mail/root', 'USER': 'root', 'ROS_PACKAGE_PATH': '/opt/aws/deepracer/lib/async_web_server_cpp/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/intel/openvino_2021/data_processing/dl_streamer/lib:/opt/intel/openvino_2021/data_processing/gstreamer/lib:/opt/intel/openvino_2021/opencv/lib:/opt/intel/openvino_2021/deployment_tools/ngraph/lib:/opt/intel/openvino_2021/deployment_tools/inference_engine/external/hddl_unite/lib:/opt/intel/openvino_2021/deployment_tools/inference_engine/external/hddl/lib:/opt/intel/openvino_2021/deployment_tools/inference_engine/external/gna/lib:/opt/intel/openvino_2021/deployment_tools/inference_engine/external/mkltiny_lnx/lib:/opt/intel/openvino_2021/deployment_tools/inference_engine/external/tbb/lib:/opt/intel/openvino_2021/deployment_tools/inference_engine/lib/intel64:/opt/aws/deepracer/lib/rplidar_ros/lib:/opt/aws/deepracer/lib/deepracer_interfaces_pkg/lib:/opt/aws/deepracer/lib/async_web_server_cpp/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HDDL_INSTALL_DIR': '/opt/intel/openvino_2021/deployment_tools/inference_engine/external/hddl', 'HOME': '/root', 'OLDPWD': '/home/deepracer/midterm_ws/src/midterm_drive/midterm_drive', 'GI_TYPELIB_PATH': '/opt/intel/openvino_2021/data_processing/gstreamer/lib/girepository-1.0', 'ROS_PYTHON_VERSION': '3', 'INTEL_OPENVINO_DIR': '/opt/intel/openvino_2021', 'MODELS_PATH': '/root/intel/dl_streamer/models', 'GST_PLUGIN_SCANNER': '/opt/intel/openvino_2021/data_processing/gstreamer/bin/gstreamer-1.0/gst-plugin-scanner', 'COLCON_PREFIX_PATH': '/opt/aws/deepracer/lib', 'SUDO_UID': '1000', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/intel/openvino_2021/data_processing/dl_streamer/lib/pkgconfig:/opt/intel/openvino_2021/data_processing/gstreamer/lib/pkgconfig:/opt/aws/deepracer/lib/async_web_server_cpp/lib/x86_64-linux-gnu/pkgconfig:/opt/aws/deepracer/lib/async_web_server_cpp/lib/pkgconfig', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'GST_VAAPI_ALL_DRIVERS': '1', 'GST_SAMPLES_DIR': '/opt/intel/openvino_2021/data_processing/dl_streamer/samples', 'PATH': '/opt/intel/openvino_2021/deployment_tools/model_optimizer:/opt/intel/openvino_2021/data_processing/gstreamer/bin:/opt/intel/openvino_2021/data_processing/gstreamer/bin/gstreamer-1.0:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'KMB_INSTALL_DIR': '/opt/intel/openvino_2021/deployment_tools/inference_engine/external/hddl_unite', 'AMENT_PREFIX_PATH': '/opt/aws/deepracer/lib/deepracer_launcher:/opt/aws/deepracer/lib/webserver_pkg:/opt/aws/deepracer/lib/web_video_server:/opt/aws/deepracer/lib/deepracer_systems_pkg:/opt/aws/deepracer/lib/usb_monitor_pkg:/opt/aws/deepracer/lib/status_led_pkg:/opt/aws/deepracer/lib/ctrl_pkg:/opt/aws/deepracer/lib/servo_pkg:/opt/aws/deepracer/lib/sensor_fusion_pkg:/opt/aws/deepracer/lib/rplidar_ros:/opt/aws/deepracer/lib/model_optimizer_pkg:/opt/aws/deepracer/lib/inference_pkg:/opt/aws/deepracer/lib/i2c_pkg:/opt/aws/deepracer/lib/device_info_pkg:/opt/aws/deepracer/lib/deepracer_navigation_pkg:/opt/aws/deepracer/lib/camera_pkg:/opt/aws/deepracer/lib/deepracer_interfaces_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'GST_PLUGIN_PATH': '/opt/intel/openvino_2021/data_processing/dl_streamer/lib:/opt/intel/openvino_2021/data_processing/gstreamer/lib/gstreamer-1.0', 'ngraph_DIR': '/opt/intel/openvino_2021/deployment_tools/ngraph/cmake', 'SUDO_USER': 'deepracer', 'InferenceEngine_DIR': '/opt/intel/openvino_2021/deployment_tools/inference_engine/share', 'OpenCV_DIR': '/opt/intel/openvino_2021/opencv/cmake', 'PWD': '/home/deepracer/midterm_ws/build/midterm_drive', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/home/deepracer/midterm_ws/install/midterm_drive/lib/python3.8/site-packages:/opt/intel/openvino_2021/python/python3.8:/opt/intel/openvino_2021/python/python3:/opt/intel/openvino_2021/deployment_tools/tools/post_training_optimization_toolkit:/opt/intel/openvino_2021/deployment_tools/open_model_zoo/tools/accuracy_checker:/opt/intel/openvino_2021/deployment_tools/model_optimizer:/opt/intel/openvino_2021/data_processing/dl_streamer/python:/opt/intel/openvino_2021/data_processing/gstreamer/lib/python3.6/site-packages:/opt/aws/deepracer/lib/webserver_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/deepracer_systems_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/usb_monitor_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/status_led_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/model_optimizer_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/device_info_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/deepracer_navigation_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/deepracer_interfaces_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'C', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/aws/deepracer/lib/deepracer_launcher:/opt/aws/deepracer/lib/web_video_server:/opt/aws/deepracer/lib/ctrl_pkg:/opt/aws/deepracer/lib/servo_pkg:/opt/aws/deepracer/lib/sensor_fusion_pkg:/opt/aws/deepracer/lib/rplidar_ros:/opt/aws/deepracer/lib/inference_pkg:/opt/aws/deepracer/lib/i2c_pkg:/opt/aws/deepracer/lib/camera_pkg:/opt/aws/deepracer/lib/deepracer_interfaces_pkg:/opt/aws/deepracer/lib/async_web_server_cpp'}, 'shell': False}
+[1.112242] (-) TimerEvent: {}
+[1.213834] (-) TimerEvent: {}
+[1.314518] (-) TimerEvent: {}
+[1.415427] (-) TimerEvent: {}
+[1.516068] (-) TimerEvent: {}
+[1.616727] (-) TimerEvent: {}
+[1.717359] (-) TimerEvent: {}
+[1.818122] (-) TimerEvent: {}
+[1.918890] (-) TimerEvent: {}
+[2.019850] (-) TimerEvent: {}
+[2.120666] (-) TimerEvent: {}
+[2.221413] (-) TimerEvent: {}
+[2.322366] (-) TimerEvent: {}
+[2.423565] (-) TimerEvent: {}
+[2.474517] (midterm_drive) StdoutLine: {'line': b'running egg_info\n'}
+[2.477035] (midterm_drive) StdoutLine: {'line': b'writing ../../build/midterm_drive/midterm_drive.egg-info/PKG-INFO\n'}
+[2.479122] (midterm_drive) StdoutLine: {'line': b'writing dependency_links to ../../build/midterm_drive/midterm_drive.egg-info/dependency_links.txt\n'}
+[2.480104] (midterm_drive) StdoutLine: {'line': b'writing entry points to ../../build/midterm_drive/midterm_drive.egg-info/entry_points.txt\n'}
+[2.481198] (midterm_drive) StdoutLine: {'line': b'writing requirements to ../../build/midterm_drive/midterm_drive.egg-info/requires.txt\n'}
+[2.482088] (midterm_drive) StdoutLine: {'line': b'writing top-level names to ../../build/midterm_drive/midterm_drive.egg-info/top_level.txt\n'}
+[2.523819] (-) TimerEvent: {}
+[2.624505] (-) TimerEvent: {}
+[2.726553] (-) TimerEvent: {}
+[2.812495] (midterm_drive) StdoutLine: {'line': b"reading manifest file '../../build/midterm_drive/midterm_drive.egg-info/SOURCES.txt'\n"}
+[2.815919] (midterm_drive) StdoutLine: {'line': b"writing manifest file '../../build/midterm_drive/midterm_drive.egg-info/SOURCES.txt'\n"}
+[2.816936] (midterm_drive) StdoutLine: {'line': b'running build\n'}
+[2.817814] (midterm_drive) StdoutLine: {'line': b'running build_py\n'}
+[2.818157] (midterm_drive) StdoutLine: {'line': b'copying midterm_drive/midterm_drive.py -> /home/deepracer/midterm_ws/build/midterm_drive/build/lib/midterm_drive\n'}
+[2.818912] (midterm_drive) StdoutLine: {'line': b'running install\n'}
+[2.822331] (midterm_drive) StdoutLine: {'line': b'running install_lib\n'}
+[2.826823] (-) TimerEvent: {}
+[2.828642] (midterm_drive) StdoutLine: {'line': b'copying /home/deepracer/midterm_ws/build/midterm_drive/build/lib/midterm_drive/midterm_drive.py -> /home/deepracer/midterm_ws/install/midterm_drive/lib/python3.8/site-packages/midterm_drive\n'}
+[2.831396] (midterm_drive) StdoutLine: {'line': b'byte-compiling /home/deepracer/midterm_ws/install/midterm_drive/lib/python3.8/site-packages/midterm_drive/midterm_drive.py to midterm_drive.cpython-38.pyc\n'}
+[2.836786] (midterm_drive) StdoutLine: {'line': b'running install_data\n'}
+[2.839942] (midterm_drive) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.848753] (midterm_drive) StdoutLine: {'line': b"removing '/home/deepracer/midterm_ws/install/midterm_drive/lib/python3.8/site-packages/midterm_drive-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.851334] (midterm_drive) StdoutLine: {'line': b'Copying ../../build/midterm_drive/midterm_drive.egg-info to /home/deepracer/midterm_ws/install/midterm_drive/lib/python3.8/site-packages/midterm_drive-0.0.0-py3.8.egg-info\n'}
+[2.854848] (midterm_drive) StdoutLine: {'line': b'running install_scripts\n'}
+[2.927123] (-) TimerEvent: {}
+[2.927790] (midterm_drive) StdoutLine: {'line': b'Installing talker script to /home/deepracer/midterm_ws/install/midterm_drive/lib/midterm_drive\n'}
+[2.929615] (midterm_drive) StdoutLine: {'line': b"writing list of installed files to '/home/deepracer/midterm_ws/build/midterm_drive/install.log'\n"}
+[3.008401] (midterm_drive) CommandEnded: {'returncode': 0}
+[3.027424] (-) TimerEvent: {}
+[3.128388] (-) TimerEvent: {}
+[3.214587] (midterm_drive) JobEnded: {'identifier': 'midterm_drive', 'rc': 0}
+[3.218342] (-) EventReactorShutdown: {}

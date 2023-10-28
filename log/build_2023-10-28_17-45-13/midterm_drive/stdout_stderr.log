@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/midterm_drive/midterm_drive.egg-info/PKG-INFO
+writing dependency_links to ../../build/midterm_drive/midterm_drive.egg-info/dependency_links.txt
+writing entry points to ../../build/midterm_drive/midterm_drive.egg-info/entry_points.txt
+writing requirements to ../../build/midterm_drive/midterm_drive.egg-info/requires.txt
+writing top-level names to ../../build/midterm_drive/midterm_drive.egg-info/top_level.txt
+reading manifest file '../../build/midterm_drive/midterm_drive.egg-info/SOURCES.txt'
+writing manifest file '../../build/midterm_drive/midterm_drive.egg-info/SOURCES.txt'
+running build
+running build_py
+copying midterm_drive/midterm_proj.py -> /home/deepracer/midterm_ws/build/midterm_drive/build/lib/midterm_drive
+running install
+running install_lib
+copying /home/deepracer/midterm_ws/build/midterm_drive/build/lib/midterm_drive/midterm_proj.py -> /home/deepracer/midterm_ws/install/midterm_drive/lib/python3.8/site-packages/midterm_drive
+byte-compiling /home/deepracer/midterm_ws/install/midterm_drive/lib/python3.8/site-packages/midterm_drive/midterm_proj.py to midterm_proj.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/deepracer/midterm_ws/install/midterm_drive/lib/python3.8/site-packages/midterm_drive-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/midterm_drive/midterm_drive.egg-info to /home/deepracer/midterm_ws/install/midterm_drive/lib/python3.8/site-packages/midterm_drive-0.0.0-py3.8.egg-info
+running install_scripts
+Installing talker script to /home/deepracer/midterm_ws/install/midterm_drive/lib/midterm_drive
+writing list of installed files to '/home/deepracer/midterm_ws/build/midterm_drive/install.log'

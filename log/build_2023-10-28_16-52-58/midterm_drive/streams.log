@@ -1,0 +1,24 @@
+[1.816s] Invoking command in '/home/deepracer/midterm_ws/src/midterm_drive': PYTHONPATH=/home/deepracer/midterm_ws/install/midterm_drive/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/midterm_drive build --build-base /home/deepracer/midterm_ws/build/midterm_drive/build install --prefix /home/deepracer/midterm_ws/install/midterm_drive --record /home/deepracer/midterm_ws/build/midterm_drive/install.log --single-version-externally-managed
+[3.379s] running egg_info
+[3.383s] writing ../../build/midterm_drive/midterm_drive.egg-info/PKG-INFO
+[3.384s] writing dependency_links to ../../build/midterm_drive/midterm_drive.egg-info/dependency_links.txt
+[3.385s] writing entry points to ../../build/midterm_drive/midterm_drive.egg-info/entry_points.txt
+[3.385s] writing requirements to ../../build/midterm_drive/midterm_drive.egg-info/requires.txt
+[3.386s] writing top-level names to ../../build/midterm_drive/midterm_drive.egg-info/top_level.txt
+[3.777s] reading manifest file '../../build/midterm_drive/midterm_drive.egg-info/SOURCES.txt'
+[3.781s] writing manifest file '../../build/midterm_drive/midterm_drive.egg-info/SOURCES.txt'
+[3.782s] running build
+[3.782s] running build_py
+[3.783s] copying midterm_drive/midterm_drive.py -> /home/deepracer/midterm_ws/build/midterm_drive/build/lib/midterm_drive
+[3.784s] running install
+[3.788s] running install_lib
+[3.795s] copying /home/deepracer/midterm_ws/build/midterm_drive/build/lib/midterm_drive/midterm_drive.py -> /home/deepracer/midterm_ws/install/midterm_drive/lib/python3.8/site-packages/midterm_drive
+[3.799s] byte-compiling /home/deepracer/midterm_ws/install/midterm_drive/lib/python3.8/site-packages/midterm_drive/midterm_drive.py to midterm_drive.cpython-38.pyc
+[3.805s] running install_data
+[3.808s] running install_egg_info
+[3.820s] removing '/home/deepracer/midterm_ws/install/midterm_drive/lib/python3.8/site-packages/midterm_drive-0.0.0-py3.8.egg-info' (and everything under it)
+[3.822s] Copying ../../build/midterm_drive/midterm_drive.egg-info to /home/deepracer/midterm_ws/install/midterm_drive/lib/python3.8/site-packages/midterm_drive-0.0.0-py3.8.egg-info
+[3.827s] running install_scripts
+[3.925s] Installing talker script to /home/deepracer/midterm_ws/install/midterm_drive/lib/midterm_drive
+[3.927s] writing list of installed files to '/home/deepracer/midterm_ws/build/midterm_drive/install.log'
+[4.017s] Invoked command in '/home/deepracer/midterm_ws/src/midterm_drive' returned '0': PYTHONPATH=/home/deepracer/midterm_ws/install/midterm_drive/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/midterm_drive build --build-base /home/deepracer/midterm_ws/build/midterm_drive/build install --prefix /home/deepracer/midterm_ws/install/midterm_drive --record /home/deepracer/midterm_ws/build/midterm_drive/install.log --single-version-externally-managed
