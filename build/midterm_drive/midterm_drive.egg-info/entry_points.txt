@@ -1,3 +1,0 @@
-[console_scripts]
-talker = midterm_drive.midterm_proj:main
-
